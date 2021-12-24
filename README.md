@@ -8,10 +8,10 @@ Downloads historic data for all stocks listed on NIFTY and calculate Calmar Rati
   
 **Overview of code:**
 The data directory only has a sample of ~1000 files (uploading of large number of files is restricted by github)
-But the Jupyter Notebook can download all historic data for all stocks on NIFTY from yahoo finance.
+But the Jupyter Notebook can download all historic data (~1.2 GB) for all stocks on NIFTY from yahoo finance.
 It can be easily modified to suit any stock exchange by changing the list of stocks in 'tickers' variable
-  
 
+Opening the directory using Microsoft VScode (with proper extensions installed) will prompt to open the code in a docker container.
+All python dependencies are listed in requirements.txt
 
-  
   
